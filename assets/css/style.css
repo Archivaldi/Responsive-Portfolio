@@ -214,42 +214,47 @@ html, body {
 
   @media screen and (max-width: 980px) {
       footer {
-        width: 767px;
+        width: 100%;
       }
 
       .container {
-          margin-left: 40px;
-          width: 685px;
+            width: 60%;
+            margin-left: 50px;
       }
       nav {
-        margin-left: 175px;
+        margin-right: 50px;
+        margin-left: 326px;
     }
     .header {
-        margin: 0;
+        margin-left: 50px;
+        width: 100%;
     }
   }
 
 
   @media screen and (max-width: 768px) {
       header {
-          
+        width: 100%;
       }
       footer {
-          width: 960px;
+          width: 100%;
       }
       .container {
-          margin: 20px;
-          width: 915px;
+          
+          width: 100%;
       }
       nav {
-        margin-left: 385px;
+        margin-left: 173px;
+    }
+    h1 {
+        margin-left: 40px;
     }
 
   }
   @media screen and (max-width: 640px) {
 
     footer {
-        width: 533px;
+        width: 100%;
     }
     nav {
         display: block;
@@ -257,8 +262,11 @@ html, body {
     }
     .container {
         margin-left: 0;
-        width: 531px;
+        width: 100%;
     }
+    .header {
+        width: 100px;
+    } 
 }
 
 
