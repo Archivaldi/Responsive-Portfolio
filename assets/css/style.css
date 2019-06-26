@@ -230,13 +230,6 @@ html, body {
   }
 
 
-
-
-
-
-
-
-
   @media screen and (max-width: 768px) {
       header {
           
@@ -253,3 +246,19 @@ html, body {
     }
 
   }
+  @media screen and (max-width: 640px) {
+
+    footer {
+        width: 533px;
+    }
+    nav {
+        display: block;
+        margin-left: 0;
+    }
+    .container {
+        margin-left: 0;
+        width: 531px;
+    }
+}
+
+
