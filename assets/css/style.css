@@ -232,13 +232,16 @@ html, body {
     textarea {
         padding-left: 0;
         padding-right: 0;
-        width: 100%;
+        width: 99%;
     }
     #email {
-        width: 100%;
+        width: 99%;
     }
     #name {
-        width: 100%;
+        width: 99%;
+    }
+    h2 {
+        width: 99%;
     }
   }
 
