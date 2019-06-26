@@ -255,9 +255,9 @@ html, body {
           width: 100%;
       }
       .container {
-          
+           
         width: 95%;
-        margin: auto;
+        margin: 0 auto 50px;
       }
       nav {
         margin-right: 0px;
