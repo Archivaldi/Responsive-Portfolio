@@ -211,3 +211,45 @@ html, body {
   .push {
     height: 50px;
   }
+
+  @media screen and (max-width: 980px) {
+      footer {
+        width: 767px;
+      }
+
+      .container {
+          margin-left: 40px;
+          width: 685px;
+      }
+      nav {
+        margin-left: 175px;
+    }
+    .header {
+        margin: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+      header {
+          
+      }
+      footer {
+          width: 960px;
+      }
+      .container {
+          margin: 20px;
+          width: 915px;
+      }
+      nav {
+        margin-left: 385px;
+    }
+
+  }
