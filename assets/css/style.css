@@ -264,11 +264,14 @@ html, body {
         margin-left: 175px;
     }
     img {
-        width: 300px;
-        height: 230px;
+        width: 320px;
+        height: 250px;
     }
     .firstImage {
-        margin-left: 22px;
+        margin-right: 0;
+    }
+    .right_col {
+        margin-left: 35px;
     }
 
     
