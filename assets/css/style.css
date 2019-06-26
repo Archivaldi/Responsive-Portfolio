@@ -234,6 +234,12 @@ html, body {
         padding-right: 0;
         width: 100%;
     }
+    #email {
+        width: 100%;
+    }
+    #name {
+        width: 100%;
+    }
   }
 
 
