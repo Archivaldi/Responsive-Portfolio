@@ -145,7 +145,7 @@ label {
 }
 
 #bottom {
-    width: 15%;
+    width: 95px;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
@@ -213,9 +213,6 @@ html, body {
   }
 
   @media screen and (max-width: 980px) {
-      footer {
-        width: 100%;
-      }
 
       .container {
             width: 60%;
@@ -232,16 +229,16 @@ html, body {
     textarea {
         padding-left: 0;
         padding-right: 0;
-        width: 99%;
+        width: 99.5%;
     }
     #email {
-        width: 99%;
+        width: 99.5%;
     }
     #name {
-        width: 99%;
+        width: 99.5%;
     }
     h2 {
-        width: 99%;
+        width: 99.5%;
     }
   }
 
@@ -253,9 +250,6 @@ html, body {
       .header {
           width: 95%;
           margin:auto;
-      }
-      footer {
-          width: 100%;
       }
       .container {
            
@@ -281,21 +275,21 @@ html, body {
 
   }
   @media screen and (max-width: 640px) {
-
-    footer {
-        width: 100%;
-    }
     nav {
-        display: block;
-        margin-left: 0;
-    }
-    .container {
-        margin-left: 0;
         width: 100%;
+        margin: 0;
+        text-align: center;
     }
-    .header {
-        width: 100px;
-    } 
+    h1 {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    #photomain {
+        width: 555px;
+        height: 400px;
+        border-bottom: 20px solid white;
+    }
 }
 
 
