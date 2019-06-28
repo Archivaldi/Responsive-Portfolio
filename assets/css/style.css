@@ -1,3 +1,23 @@
+/* @media screen and (max-width: 640px) {
+    .container {
+        padding:0;
+    }
+    h1 {
+        width: 100%;
+    }
+    nav {
+        margin-left: 0px;
+        width: 100%;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width:980px) {
+}
+
 img {
     width: 200px;
     height: 165px;
@@ -212,91 +232,24 @@ html, body {
     height: 50px;
   }
 
-  @media screen and (max-width: 980px) {
-
-      .container {
-            width: 60%;
-            margin-left: 50px;
-      }
-      nav {
-        margin-right: 50px;
-        margin-left: 326px;
-    }
-    .header {
-        margin-left: 50px;
-        width: 100%;
-    }
-    textarea {
-        padding-left: 0;
-        padding-right: 0;
-        width: 99.5%;
-    }
-    #email {
-        width: 99.5%;
-    }
-    #name {
-        width: 99.5%;
-    }
-    h2 {
-        width: 99.5%;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-      header {
-        width: 100%;
-      }
-      .header {
-          width: 95%;
-          margin:auto;
-      }
-      .container {
-           
-        width: 95%;
-        margin: 0 auto 50px;
-      }
-      nav {
-        margin-right: 0px;
-        margin-left: 175px;
-    }
-    img {
-        width: 320px;
-        height: 250px;
-    }
-    .firstImage {
-        margin-right: 0;
-    }
-    .right_col {
-        margin-left: 35px;
-    }
-
-    
-
-  }
   @media screen and (max-width: 640px) {
-
-    .header {
-        margin: 0;
-    }
-    header {
-        width: 100%;
-    }
-    nav {
-        width: 100%;
-        margin: 0;
-        text-align: center;
+    .container {
+        padding:0;
+        width:100%;
     }
     h1 {
+        width: 59%;
         text-align: center;
-        width: 100%;
-        margin: 0;
     }
-    #photomain {
+    nav {
+        margin-left: 165px;
+        width: 100%;
+    }
+    .inside {
+        width: 560px;
+    }
+    textarea {
         width: 555px;
-        height: 400px;
-        border-bottom: 20px solid white;
     }
 }
-
 
