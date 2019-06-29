@@ -262,7 +262,7 @@ html, body {
         width: 768px;
     }
     nav {
-        margin-left: 210px;
+        margin-left: 159px;
     }
     a {
         font-size: 20px;
@@ -271,10 +271,10 @@ html, body {
         margin:10px;
     }
     .inside {
-        width: 690px;
+        width: 643px;
     }
     .container {
-        width: 745px;
+        width: 693px;
     }
     img {
         width: 328px;
@@ -288,7 +288,7 @@ html, body {
     }
 
     textarea {
-        width: 686px;
+        width: 640px;
     }
 
 } 
@@ -310,7 +310,7 @@ html, body {
         width: 568px;
     }
     textarea {
-        width: 528px;
+        width: 565px;
     }
     footer {
         width:640px;
@@ -339,6 +339,10 @@ html, body {
     img {
         width: 100%;
         height: auto;
+    }
+
+    .right_col {
+        margin: 0;
     }
 
 }
