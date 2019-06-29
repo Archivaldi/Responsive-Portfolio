@@ -232,24 +232,44 @@ html, body {
     height: 50px;
   }
 
-  @media screen and (max-width: 640px) {
+  @media (max-width: 640px) {
     .container {
         padding:0;
-        width:100%;
+        ;
     }
     h1 {
-        width: 59%;
+        margin-left: 0;
+        width: 564px;
         text-align: center;
     }
     nav {
         margin-left: 165px;
-        width: 100%;
     }
     .inside {
         width: 560px;
     }
     textarea {
-        width: 555px;
+        width: 100%;
+    }
+    footer {
+        width:614px;
     }
 }
+
+ @media screen and (min-width:641px) and (max-width:768px) {
+    h1 {
+        margin-left: 10px;
+        font-size: 30px;
+        width: 213px;
+    }
+    nav {
+        margin-left: 55px;
+    }
+    a {
+        font-size: 20px;
+    }
+    .container {
+        margin:10px;
+    }
+} 
 
