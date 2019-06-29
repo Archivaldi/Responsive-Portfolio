@@ -239,21 +239,25 @@ html, body {
     }
     h1 {
         margin-left: 0;
-        width: 564px;
+        width: 590px;
         text-align: center;
     }
     nav {
-        margin-left: 165px;
+        margin-left: 175px;
     }
     .inside {
-        width: 560px;
+        width: 534px;
     }
     textarea {
-        width: 100%;
+        width: 528px;
     }
     footer {
-        width:614px;
+        width:640px;
     }
+    .container {
+        width: 585px;
+    }    
+
 }
 
  @media screen and (min-width:641px) and (max-width:768px) {
