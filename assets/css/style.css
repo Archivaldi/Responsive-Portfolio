@@ -259,6 +259,12 @@ html, body {
         width: 100%;
         height: 250px;
     }
+
+    #photomain {
+        width: 200px;
+        height: 165px;
+    }
+
     .firstImage {
         margin: 0;
         width: 48%;
